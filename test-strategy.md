@@ -18,6 +18,13 @@ Descripción:
 Solución:
     Agregar el maximo y mínimo de esta forma *Math.floor(Math.random() * (100 - 1) + 1);* y con el uso de Math.floor se eliminarán los decimales.
 
+### Correción intentos
+Descripción:
+    La variable *ATTEMPS* tenía el valor de 5, mientras que los requerimientos decían 10 intentos. 
+
+Solución:
+    Cambiar el valor de ATTEMPS a 10.
+
 ### Corrección de mensajes a mostrar
 
 Descripción:
@@ -49,6 +56,9 @@ Descripción:
 
 Solución:
     Se cambia el triple igual por un doble igual *==* para verificar que los valores sean iguales.
+
 ## Agregar console.log() temporales
 
 Para conocer el numero generado, se imprime el número con un console.log(), de esta forma se comprobarán los colores y mensajes a mostrar.
+
+Se imprimieron tambien los valores ingresados por el usuario para comprobar el doble y triple signo igual.

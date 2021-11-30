@@ -41,7 +41,6 @@
 
 <script>
   let randomNumber = Math.floor(Math.random() * (100 - 1) + 1);
-  console.log(randomNumber);
 
   const ATTEMPS = 10;
   const guesses = document.querySelector('.guesses');
@@ -59,8 +58,6 @@
       guesses.textContent = 'Número aleatorio anterior: ';
     }
     guesses.textContent += userGuess + ' ';
-    console.log(userGuess);
-    console.log(randomNumber);
     if(userGuess == randomNumber) {
       lastResult.textContent = 'Felicitaciones! adivinaste el número!';
       lastResult.style.backgroundColor = 'green';
