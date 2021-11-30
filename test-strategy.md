@@ -1,11 +1,11 @@
-### TESTEO
+# TESTEO
 
 ## ERRORES
 
 ### Correción linea 87
 
 Descripción:
-    El metodo *addEventListener()* estaba mal escrito, por esto al presionar el botón para verificar no realizaba ninguana acción.
+    El metodo *addEventListener()* estaba mal escrito, por esto al presionar el botón para verificar no realizaba ninguna acción.
 
 Solución:
     Corregir la *e* en Event por *E*.
@@ -52,7 +52,7 @@ Solución:
 ### Eliminar el triple signo igual
 
 Descripción:
-    En javascript la comparación *===* es un ternario, si no se cambia aunque el número ingresado sea correcto lo tomará como incorrecto.
+    En javascript la comparación *===* es un operador de estricta igualdad, si no se cambia aunque el número ingresado sea correcto lo tomará como incorrecto.
 
 Solución:
     Se cambia el triple igual por un doble igual *==* para verificar que los valores sean iguales.
